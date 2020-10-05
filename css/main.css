@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(238, 238, 238);
+    direction: rtl;
+    margin: 0px;
+}
+.green-nav{
+    background-color: rgb(11, 116, 84);
+    border-radius: 2rem;
+}
+.green-nav .icons a{
+    color: white;
+    text-decoration: none;    
+}
+.green-nav .list-buttons a{
+    color: white;
+    text-decoration: none;    
+}
+.green-nav .list-buttons a:hover{
+    color: lightgray;
+    background-color: lightslategrey;
+    border-radius: 2rem;
+    padding:5px 7px 5px 7px;
+}
+.dropdown-menu a:hover{
+    color:darkslategray;
+}
+#search{
+    background-color:  rgba(160, 160, 160, 0.575);
+}
+.fa-search{
+    margin-left: -30px;
+    color: lightgray;
+}
+.fa-user-circle{
+    font-size: 20px;
+}
+@media(max-width:576px){
+    .green-nav {
+        text-align: center;
+        
+    }
+    .green-nav ul{
+        padding-right: 0px;
+    }
+}
+
+.grey-nav img{
+    width: 120%; 
+    margin-top: 15px;
+ }
+.grey-nav a{
+    border:1px solid black;
+    color:black;
+    border-radius: 50%;
+}
+.grey-nav a:hover{
+    color:lightgray;
+    background-color: black;
+}
+@media(max-width:576px){
+    .grey-nav img{
+       width: 150%; 
+      
+    }
+}
+.container form{
+    background-color: lightgray;
+    color:  rgb(11, 116, 84);
+    border: none;
+    border-radius: 1rem;
+    width: 60%;
+}
+input, .dropdown{
+    text-align: center;
+    border-radius: 1rem;
+    background-color: rgb(194, 194, 194);
+    border: none;
+}
+.dropdown{
+    height: 26px;
+    font-size: 10px;
+}
+@media(max-width:992px){
+    .container form{
+        width: 70%;
+    }
+
+}
+@media(max-width:576px){
+    .container form{
+        width: 100%;
+    }
+    .dropdown{
+        font-size: 5px;
+    }
+}
+
+.fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+}
+form .fa-facebook-f{
+    font-size: 20px;
+}
+.fa-plus{
+    color: white;
+    background-color: rgb(11, 116, 84);
+    border-radius: 50%;
+    padding: 6px 8px 6px 8px;
+    cursor: pointer;
+}
+#submitButton{
+    color: white;
+    background-color:  rgb(11, 116, 84);
+    border-radius: 2rem;
+    margin-left: 43%;   
+}

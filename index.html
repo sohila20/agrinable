@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Agrinable</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+<body>
+    <!--nav-->
+    <nav>
+        <div class="row ml-2 mr-3">
+            <div class="col-8 green-nav mt-2 text-white">
+                <div class="row pt-3">
+                    <div class="col-xl-4 col-lg-6 col-md-8 col-sm-8 icons">
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><div class="btn-group">
+                                <button type="button" class="btn dropdown-toggle text-white" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-user-circle p-2"></i>محمد حمدى
+                                </button>
+                                <div class="dropdown-menu bg-secondary">
+                                  <a class="dropdown-item" href="#">البروفايل</a>
+                                  <a class="dropdown-item" href="#">الرسائل</a>
+                                </div>
+                              </div>
+                              </li>
+                            <li class="list-inline-item pl-1"><a href="#"><i class="fab fa-rocketchat"></i></a></li>
+                            <li class="list-inline-item pl-2"><a href="#"><i class="far fa-bell"></i></a></li>
+                            <li class="list-inline-item "><a href="#"><i class="fas fa-home"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-4 col-sm-4 list-buttons navbar-expand-lg pt-2">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="fas fa-align-justify text-white"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a class="nav-link" href="#">المدونة</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">المعامل</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">المحاصيل</a></li>
+                                <li class="nav-item pr-1"><a class="nav-link" href="#">الدعم الفني</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 d-none d-xl-block pt-2">
+                        <i class="fa fa-search"></i>
+                        <input type="text" id="search" placeholder="اكتب كلمة بحث">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 grey-nav">
+                <div class="row">
+                    <div class="col-lg-8 d-none d-xl-block d-lg-block mt-4">
+                        <ul class="list-inline row">
+                            <li class="list-inline-item col-2"><a href="https://facebook.com" class="px-2 py-1"><i class="fab fa-facebook-f social-icons"></i></a></li>
+                            <li class="list-inline-item col-2 rounded-circle"><a href="https://twitter.com" class="px-1 py-1"><i class="fab fa-twitter social-icons"></i></a></li>
+                            <li class="list-inline-item col-3 rounded-circle"><a href="https://plus.google.com" class="px-1 py-1"><i class="fab fa-google-plus-g social-icons"></i></a></li>
+                            <li class="list-inline-item col-2 rounded-circle"><a href="https://instagram.com" class="px-2 py-1"><i class="fab fa-instagram social-icons"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-xs-12">
+                        <img src="./img/logo.png" alt="agrinable-logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!--Form-->
+    <div class="container float-right py-5">
+        <form class="text-right p-2 m-auto">
+            <!--first part-->
+            <div>
+                <h5 class="text-center">بيانات مسئول التواصل</h5>
+                <div class="form-row">
+                    <div class="col-3 text-left">
+                        <label for="name">الاسم</label>
+                    </div>
+                    <div class="col-5">
+                        <input class="w-100" type="text" id="name">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-3 text-left">
+                        <label for="email">البريد الالكتروني</label>
+                    </div>
+                    <div class="col-5">
+                        <input class="w-100" type="email" id="email">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-3 text-left">
+                        <label for="phone">الهاتف</label>
+                    </div>
+                    <div class="col-5">
+                        <input class="w-100" type="tel" id="phone">
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <!--Second part-->
+            <div>
+                <h5 class="text-center">بيانات تسجيل الشركة </h5>
+                <div class="form-row">
+                    <div class="col-3 text-left">
+                        <label for="compnay-name">اسم الشركة</label>
+                    </div>
+                    <div class="col-5">
+                        <input class="w-100" type="text" id="compnay-name" value="">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col">
+                        <div class="form-row">
+                            <div class="col-6 text-left">
+                                <label for="commercial-register">سجل تجاري</label>
+                            </div>
+                            <div class="col-6">
+                                <input class="w-100" type="text" id="commercial-register" value="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-row">
+                            <div class="col-5 text-left">
+                                <label for="commercial-id">بطاقة تجارية</label>
+                            </div>
+                            <div class="col-6">
+                                <input class="w-100" type="text" id="commercial-id" value="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row my-1">
+                    <div class="col-2"></div>
+                    <div class="col-10">
+                        <label for="attachFile"> اضغط لارفاق صورة السجل والبطاقة الضريبية <i class="fas fa-plus"></i><input type="file" id="attachFile" class="d-none"  onchange="$('#upload-file-info').html(this.files[0].name)"></label>
+                        <span class='label label-info' id="upload-file-info"></span>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <div class="form-row">
+                        <div class="col-3 text-left">
+                            <label for="address">العنوان</label>
+                        </div>
+                        <div class="col-8">
+                            <div class="row">
+                                <div class="col-8">
+                                    <input class="w-100" type="text" id="address" placeholder="شارع">
+                                </div>
+                                <div class="col-4">
+                                    <div class="input-group">
+                                        <select class="custom-select dropdown mb-2 py-0" id="inputGroupSelect01">
+                                          <option value="1">مركز</option>
+                                          <option value="2">Two</option>
+                                          <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-3"></div>
+                        <div class="col-4">
+                            <div class="input-group ">
+                                <select class="custom-select dropdown mb-2" id="inputGroupSelect01">
+                                  <option value="1">محافظة</option>
+                                  <option value="2">Two</option>
+                                  <option value="3">Three</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="input-group ">
+                                <select class="custom-select dropdown mb-2" id="inputGroupSelect01">
+                                  <option value="1">طبيعة العنوان</option>
+                                  <option value="2">Two</option>
+                                  <option value="3">Three</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-3 text-left">
+                        <label for="companyMobile">هاتف محمول</label>
+                    </div>
+                    <div class="col-5">
+                        <input class="w-100" type="text" id="companyMobile" value="">
+                    </div>
+                    <div class="col-2">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-3 text-left">
+                        <label for="companyLandLine">هاتف ارضي</label>
+                    </div>
+                    <div class="col-5">
+                        <input class="w-100" type="text" id="companyLandLine" value="">
+                    </div>
+                    <div class="col-2">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-3 text-left">
+                        <label for="companyMobile"><i class="fab fa-google"></i></label>
+                    </div>
+                    <div class="col-5">
+                        <input class="w-100" type="text" id="companyMobile" value="">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-3 text-left">
+                        <label for="companyLandLine"><i class="fab fa-facebook-f text-primary"></i></label>
+                    </div>
+                    <div class="col-5">
+                        <input class="w-100" type="text" id="companyLandLine" value="">
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <!--Third part-->
+            <div class="form-row">
+                <div class="col-3 text-left">
+                    <label for="departement">التخصص</label>
+                </div>
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-5">
+                            <input class="w-100" type="text" id="departement" placeholder="موالح">
+                        </div>
+                        <div class="col-5">
+                            <input class="w-100" type="text" id="departement" placeholder="مبيدات">
+                        </div>
+                        <div class="col-2">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <button class="btn btn-lg px-5 mt-3"type="submit" id="submitButton">تسجيل</button>
+    </div>
+    
+    
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
